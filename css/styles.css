@@ -1,0 +1,98 @@
+body{
+  font-family: 'Merriweather', serif;
+  overflow: scroll;
+  font-size: 2em;
+  width: 1170px;
+  margin: auto;
+}
+
+fieldset {
+  border-radius: 10px;
+  border: 1px solid #182774;
+}
+
+legend {
+  color: #182774;
+}
+
+label
+{
+  float: left;
+  width: 40%;
+  margin-right: 0.5em;
+  padding-top: 0.2em;
+  text-align: right;
+}
+
+
+input
+{
+  width: 20%;
+  padding-top: 0.2em;
+  text-align: middle;
+}
+
+.center {
+  text-align: center;
+}
+
+footer
+{
+  padding: 10px;
+  text-align: center;
+  float: bottom;
+  position:absolute;
+  bottom:0;
+  width: 1170px;
+  height:50px;
+}
+
+#mainPhoto
+{
+  float: left;
+  width: 700px;
+  height: 500px;
+  margin: 10px;
+}
+
+#loginPhoto
+{
+  display: flex;		
+  align-items: center;
+  width: 1170px;
+  height: 500px;
+  
+}
+
+#mainText 
+{
+  text-align: center;
+  padding:80px;
+}
+
+.tableLabel
+{
+  width: 85%;
+  padding-top: 0.3em;
+  font-size: 0,8em;
+}
+
+.tableInput
+{
+  width: 65%;
+  padding-top: 0.3em;
+}
+
+table
+{
+   width: 100%;
+   text-align: center;
+   margin-left: 10px;
+   margin-right:10px;   
+}
+
+#sendMessageText 
+{
+	font-size: 3em;
+	color: #182774;
+}
